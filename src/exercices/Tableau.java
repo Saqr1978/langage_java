@@ -6,28 +6,30 @@
 package exercices;
 
 /**
- *Exo tableau
+ * Exo tableau
+ *
  * @author formation
  */
 public class Tableau {
-    public static void main(String[] args) {
-    }
-    String[][] tab=new String[10][10];
-    
-    public Tableau(){
-        for(int i=0;i<10;i++){
-            for(int j=0;j<10;j++){
-            tab[i][j]="*";
-        }
-        }
-    }
-    
-    public void placeCarac(String[][] tab){
-        for(int i=0;i<10;i++)
-        {
-            tab[i][(int)(Math.random()*10)]='$';
-        }
-        
-        
-    }
+
+//    public static void main(String[] args) {
+//
+//    String[][] tab = new String[10][10];
+//
+//    public Tableau() {
+//        for (int i = 0; i < 10; i++) {
+//            for (int j = 0; j < 10; j++) {
+//                tab[i][j] = "*";
+//            }
+//
+//        }
+//    
+//    
+//
+//    public void placeCarac(String[][] tab) {
+//        for (int i = 0; i < 10; i++) {
+//            tab[i][(int) (Math.random() * 10)] = '$';
+//        }
+//
+//    }
 }
