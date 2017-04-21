@@ -6,7 +6,7 @@
 package exercices;
 
 /**
- *
+ *Exo tableau
  * @author formation
  */
 public class Tableau {
